@@ -65,7 +65,7 @@ function Navebar() {
             className="absolute text-[2rem] top-[2rem] right-[2rem] text-[#1c31b5]"
           />
           <h2 className="absolute top-[2rem] logo cursor-pointer text-[2rem] font-bold tracking-[.2rem]">
-            <span className="text-[#1c31b5]">V</span>ishwas
+            <span className="text-[#1c31b5]">R</span>akesh
           </h2>
 
           <a

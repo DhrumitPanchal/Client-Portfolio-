@@ -276,7 +276,7 @@ function LandingPage() {
 
       <section
         id="Work"
-        className="max-sm:px-[rem] max-sm:mt-[4rem] py-[2rem] flex  items-center flex-col gap-[.6rem] h-fit max-sm:h-fit w-full text-black bg-[#f6f6f6]"
+        className="overflow-hidden max-sm:px-[rem] max-sm:mt-[4rem] py-[2rem] flex  items-center flex-col gap-[.6rem] h-fit max-sm:h-fit w-full text-black bg-[#f6f6f6]"
       >
         <div
           data-aos="fade-up"
@@ -503,6 +503,9 @@ function LandingPage() {
           </div>
         </div>
       </section>
+      <footer className="py-[1rem] flex justify-center items-center text-white bg-[#1c31b5]">
+         Copyright © 2023 by Dhrumit | All Rights Resereved
+      </footer>
     </>
   );
 }
