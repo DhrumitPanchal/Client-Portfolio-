@@ -23,7 +23,16 @@ function LandingPage() {
     Subject: "",
     Massage: "",
   });
-  console.log(formData);
+  const [bgimg, setBgimg] = useState("./Images/BG-desktop.jpg");
+
+  window.addEventListener("resize", () => {
+    window.innerWidth < 450
+      ? setBgimg("./Images/BG-mobile.jpg")
+      : setBgimg("./Images/BG-desktop.jpg");
+  });
+
+
+
   const hendleInput = (e) => {
     setFormData({ ...formData, [e.target.name]: [e.target.value] });
   };
@@ -31,12 +40,7 @@ function LandingPage() {
     setFormData({ Name: "", Email: "", Subject: "", Massage: "" });
   };
 
-  const [bgimg, setBgimg] = useState("./Images/BG-desktop.jpg");
-  window.addEventListener("resize", () => {
-    window.innerWidth < 450
-      ? setBgimg("./Images/BG-mobile.jpg")
-      : setBgimg("./Images/BG-desktop.jpg");
-  });
+
   useEffect(() => {
     window.innerWidth < 500
       ? setBgimg("./Images/BG-mobile.jpg")

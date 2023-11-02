@@ -70,30 +70,35 @@ function Navebar() {
 
           <a
             href="#Home"
+            onClick={() => setOpenmenu(!openmenu)}
             className="cursor-pointer hover:text-[#1c31b5] transition-colors duration-300"
           >
             home
           </a>
           <a
             href="#About"
+            onClick={() => setOpenmenu(!openmenu)}
             className="cursor-pointer hover:text-[#1c31b5] transition-colors duration-300"
           >
             about
           </a>
           <a
             href="#Services"
+            onClick={() => setOpenmenu(!openmenu)}
             className="cursor-pointer hover:text-[#1c31b5] transition-colors duration-300"
           >
             services
           </a>
           <a
             href="#Work"
+            onClick={() => setOpenmenu(!openmenu)}
             className="cursor-pointer hover:text-[#1c31b5] transition-colors duration-300"
           >
             work
           </a>
           <a
             href="#Contect"
+            onClick={() => setOpenmenu(!openmenu)}
             className="cursor-pointe0r hover:text-[#1c31b5] transition-colors duration-300"
           >
             contect
