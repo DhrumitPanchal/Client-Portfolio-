@@ -3,8 +3,7 @@
 
 Check out this personalized portfolio I crafted for a friend! It's a cool space reflecting their personality, projects, and interests. Browse around, get to know them, and feel free to drop a message. Enjoy the vibes!
 ## preview 
-
-Insert gif or link to demo
+https://client-portfolio-by-dhrumitpanchal.netlify.app/
 
 
 ## Screenshots
@@ -31,5 +30,5 @@ List the technologies, frameworks, and libraries you used to build your portfoli
 
 **React**,
 **tailwindcss** , 
-**react-slick** ,
+**react-slick** 
 
