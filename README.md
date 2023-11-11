@@ -25,7 +25,7 @@ npm install
 ```
     
 ## Tech Stack
-List the technologies, frameworks, and libraries you used to build your portfolio website.
+List the technologies, frameworks, and libraries you used to build this portfolio website.
 
 
 **React**,
